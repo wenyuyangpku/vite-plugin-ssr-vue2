@@ -1,9 +1,9 @@
-import vue from '@vitejs/plugin-vue'
+import { createVuePlugin } from 'vite-plugin-vue2'
 import ssr from 'vite-plugin-ssr/plugin'
 import { UserConfig } from 'vite'
 
 const config: UserConfig = {
-  plugins: [vue(), ssr()],
+  plugins: [createVuePlugin(), ssr()],
 }
 
 export default config

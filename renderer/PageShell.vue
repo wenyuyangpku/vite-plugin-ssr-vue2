@@ -4,15 +4,15 @@
       <a href="/" class="logo">
         <img src="./logo.svg" height="64" width="64" alt="logo" />
       </a>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
     </div>
     <div class="content"><slot /></div>
   </div>
 </template>
 
-<script lang="ts" setup>
-import Link from './Link.vue'
+<script lang="ts">
+export default {};
 </script>
 
 <style>
